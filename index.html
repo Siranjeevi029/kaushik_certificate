@@ -18,32 +18,33 @@ display:flex;
 justify-content:center;
 align-items:center;
 background:#efefef;
-font-family: Georgia, serif;
+font-family:Georgia, serif;
 }
 
 .btn{
 display:inline-block;
-width:175px;          /* shorter width */
-height:34px;          /* smaller height */
-line-height:34px;
+width:118px;          /* very tiny */
+height:24px;          /* very tiny */
+line-height:24px;
 text-align:center;
 background:#2f6fc0;
-color:white;
+color:#fff;
 text-decoration:none;
-font-size:14px;       /* smaller text */
-border-radius:6px;
-cursor:pointer;
-user-select:none;
+font-size:10px;       /* tiny text */
+border-radius:4px;
 border:none;
 outline:none;
+cursor:pointer;
+user-select:none;
 }
 
-/* no hover effect */
+/* absolutely no hover / click change */
 .btn:hover,
 .btn:active,
-.btn:focus{
+.btn:focus,
+.btn:visited{
 background:#2f6fc0;
-color:white;
+color:#fff;
 transform:none;
 box-shadow:none;
 outline:none;
