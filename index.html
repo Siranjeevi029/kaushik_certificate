@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Open Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate</title>
 
 <style>
 *{
@@ -17,31 +17,52 @@ height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
-background:white;
-font-family:Arial, sans-serif;
+background:#efefef;
+font-family: Georgia, serif;
 }
 
-a{
-text-decoration:none;
-background:#111;
+.btn{
+display:inline-block;
+width:210px;
+height:42px;
+line-height:42px;
+text-align:center;
+background:#2f6fc0;
 color:white;
-padding:18px 38px;
-border-radius:10px;
-font-size:20px;
-font-weight:bold;
-transition:0.25s;
+text-decoration:none;
+font-size:16px;
+border-radius:7px;
+cursor:pointer;
+user-select:none;
 }
 
-a:hover{
-transform:scale(1.05);
+/* no hover effect */
+.btn:hover{
+background:#2f6fc0;
+color:white;
+transform:none;
+}
+
+/* no click effect */
+.btn:active{
+background:#2f6fc0;
+color:white;
+transform:none;
+outline:none;
+}
+
+.btn:focus{
+outline:none;
 }
 </style>
 </head>
 
 <body>
 
-<a href="https://drive.google.com/uc?export=download&id=1FwELaNAMR_X1gWVPH7Gm-H0EGY4YoCGH" target="_blank">
-Open Document
+<a class="btn"
+href="https://drive.google.com/file/d/1FwELaNAMR_X1gWVPH7Gm-H0EGY4YoCGH/preview"
+target="_blank">
+Course Certificate
 </a>
 
 </body>
