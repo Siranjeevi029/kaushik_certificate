@@ -23,35 +23,29 @@ font-family: Georgia, serif;
 
 .btn{
 display:inline-block;
-width:210px;
-height:42px;
-line-height:42px;
+width:175px;          /* shorter width */
+height:34px;          /* smaller height */
+line-height:34px;
 text-align:center;
 background:#2f6fc0;
 color:white;
 text-decoration:none;
-font-size:16px;
-border-radius:7px;
+font-size:14px;       /* smaller text */
+border-radius:6px;
 cursor:pointer;
 user-select:none;
-}
-
-/* no hover effect */
-.btn:hover{
-background:#2f6fc0;
-color:white;
-transform:none;
-}
-
-/* no click effect */
-.btn:active{
-background:#2f6fc0;
-color:white;
-transform:none;
+border:none;
 outline:none;
 }
 
+/* no hover effect */
+.btn:hover,
+.btn:active,
 .btn:focus{
+background:#2f6fc0;
+color:white;
+transform:none;
+box-shadow:none;
 outline:none;
 }
 </style>
